@@ -1,7 +1,7 @@
 {
-  "name": "tgast",
+  "name": "@quadratz/do-not-use-this-package",
   "description": "Telegram Abstract Syntax Tree format.",
-  "version": "1.2.3",
+  "version": "0.0.0-alpha.1",
   "license": "MIT",
   "keywords": [
     "telegram",

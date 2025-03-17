@@ -1,11 +1,12 @@
 {
-  "name": "@qz/tgast",
-  "version": "1.2.3",
+  "name": "@qz/do-not-use-this-package",
+  "version": "0.0.0-alpha.1",
   "exports": "./src/mod.ts",
   "tasks": {
     "check": "deno fmt --check && deno lint && deno -ERW=. npm:typescript/tsc",
-    "check:publish": "deno task check && deno publish --dry-run --allow-dirty && npm publish --provenance --access public --dry-run --allow-dirty",
-    "liftoff": "deno task check && deno publish && npm publish --provenance --access public"
+    "check:publish": "deno task check && deno publish --dry-run --allow-dirty && npm publish --access public --dry-run --allow-dirty",
+    "liftoff:jsr": "deno task check && deno publish",
+    "liftoff:npm": "deno task check && npm publish --access public"
   },
   "publish": {
     "include": [
